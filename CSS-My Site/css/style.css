@@ -1,0 +1,164 @@
+body
+{
+    background-color:#E4F9F5;
+    margin: 0px; /*the following 3 lines are equivalent to margin: 0 for the top portion we include it in the h1*/
+    text-align: center;
+    font-family: 'Merriweather', serif;
+
+
+}
+
+h1
+{
+    color: #30E3CA;
+    margin-top: 25px;
+    margin-bottom: 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 90px; /*to achieve dynamic font size use % or 'em' where 16px= 100%= 1em, note: px is static*/
+/*em and % is inherited so the value mentioned in the children will be added with the parent 
+value before use, so it will be more than the value mentioned in child, not the case for px,
+to overcome this property of the em we will use rem,
+rem is the most reliable and adaptable*/
+}
+
+h2
+{
+    color:#30E3CA;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    line-height: 2;
+}
+
+
+h3
+{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+.skill-row
+{
+    display: inline-block;
+    width: 50%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: left;
+    line-height: 2;
+}
+
+
+.computer-pic
+{
+    width: 25%;
+    float: left;
+  
+}
+
+
+.chillies-pic
+{
+    width: 25%;
+    float: right;
+}
+
+
+
+/*.first_box
+{
+    background-color:white;
+}
+
+.second_box
+{
+    background-color:red;
+    width: 200px;
+    height: 200px;
+}*/
+
+.third_box
+{
+    background-color: #66bfbf;
+    margin-bottom: 0;
+}
+
+.TM 
+{
+    color: white;
+    position: relative;
+    top: 10px;
+}
+
+.footer-link-1
+{
+    color: #11999E;
+    position: relative;
+    right: 80px;
+    text-decoration: none;
+}
+
+.footer-link-2
+{
+    color: #11999E;
+    position: relative;
+    left: 80px;
+    text-decoration: none;
+}
+
+.flower1
+{
+ position: relative;
+ top: 500px;
+ left: 500px;
+ height: 200px;
+ width: 200px;
+}
+
+.flower2
+{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    left:  100px;
+}
+
+.first_box
+{
+    position: relative;
+    bottom: 100px;
+    margin-top: 0;
+}
+
+.btn {
+    background: #2bc4ad;
+    background-image: -webkit-linear-gradient(#11cdd4, #11999e);
+    background-image: -moz-linear-gradient(#11cdd4, #11999e);
+    background-image: -ms-linear-gradient(#11cdd4, #11999e);
+    background-image: -o-linear-gradient(#11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 10px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+ 
+  }
+  
+  .btn:hover 
+  {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom #30e3cb, #2bc4ad);
+  }
+
+  .line-break
+  {
+      border-style: dotted;
+ 
+  }
